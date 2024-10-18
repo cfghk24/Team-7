@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 
 const EVENTS = [
@@ -105,9 +106,9 @@ const EventCard = (props: {event: EventType}) => {
                 <h5 className="mb-2 text-lg font-bold tracking-tight">{event.name}</h5>
             </a>
             <p className="mb-3 text-sm font-normal text-gray-700 line-clamp-3">{event.description}</p>
-            <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg">
+            <Link href={`/events/${event._id}`} className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg">
                 Read more
-            </a>
+            </Link>
         </div>
     </div>
 
