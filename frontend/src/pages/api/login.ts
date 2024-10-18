@@ -5,7 +5,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     const { username, password } = req.body;
 
     // Simulate login validation with username
-    if (username === 'testuser' && password === 'testpw') {
+    if (username === 'admin' && password === 'admin') {
       // Successful login
       res.status(200).json({ message: 'Login successful!' });
     } else {
