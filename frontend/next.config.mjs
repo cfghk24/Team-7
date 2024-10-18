@@ -12,7 +12,7 @@ const nextConfig = {
   rewrites: async () => [
     {
       source: '/api/:path*',
-      destination: 'https://jsonplaceholder.typicode.com/:path*',
+      destination: 'http://localhost:8080/:path*',
     },
   ],
 };
