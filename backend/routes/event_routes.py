@@ -103,7 +103,7 @@ def register_for_event(event_id):
 
     # Check if the user is already registered
     if "participants" in event and user_id in event["participants"]:
-        return {"message": "User already registered for this event"}, 400
+        return {"message": "User already registered for this event"}, 200
 
     # Add the user_id to the participants array
     result = events_model.update_one(
