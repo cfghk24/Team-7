@@ -1,0 +1,262 @@
+[
+  {
+    "user_id": 101,
+    "object_id": "event_001",
+    "feedback": {
+      "questions": [
+        "How would you rate the overall experience?",
+        "What did you like the most?",
+        "Any suggestions for improvement?"
+      ],
+      "answers": {
+        "ratings": [5, 4, 3],
+        "comments": [
+          "Great event!",
+          "The art exhibits were fantastic.",
+          "Maybe add more interactive sessions."
+        ]
+      }
+    },
+    "created_at": "2024-10-18 06:00:00"
+  },
+  {
+    "user_id": 102,
+    "object_id": "event_002",
+    "feedback": {
+      "questions": [
+        "How satisfied are you with the event organization?",
+        "Were the event timings convenient?",
+        "Would you attend this event again?"
+      ],
+      "answers": {
+        "ratings": [4, 5, 5],
+        "comments": [
+          "Well-organized overall.",
+          "Timings were perfect.",
+          "Absolutely, looking forward to the next one."
+        ]
+      }
+    },
+    "created_at": "2024-10-18 06:05:30"
+  },
+  {
+    "user_id": 103,
+    "object_id": "event_003",
+    "feedback": {
+      "questions": [
+        "Rate the variety of artworks presented.",
+        "How was the venue ambiance?",
+        "Any additional feedback?"
+      ],
+      "answers": {
+        "ratings": [4, 4, 4],
+        "comments": [
+          "Good variety of contemporary pieces.",
+          "Venue was spacious and well-lit.",
+          "Could include more international artists."
+        ]
+      }
+    },
+    "created_at": "2024-10-18 06:10:15"
+  },
+  {
+    "user_id": 104,
+    "object_id": "article_001",
+    "feedback": {
+      "questions": [
+        "How informative did you find the article?",
+        "Was the writing style engaging?",
+        "Would you like to read more on this topic?"
+      ],
+      "answers": {
+        "ratings": [5, 4, 5],
+        "comments": [
+          "Very informative and well-researched.",
+          "Engaging writing style.",
+          "Yes, please provide more articles like this."
+        ]
+      }
+    },
+    "created_at": "2024-10-18 06:15:45"
+  },
+  {
+    "user_id": 105,
+    "object_id": "article_002",
+    "feedback": {
+      "questions": [
+        "Rate the depth of analysis in the article.",
+        "How relevant is the content to your interests?",
+        "Any suggestions for future articles?"
+      ],
+      "answers": {
+        "ratings": [4, 5, 4],
+        "comments": [
+          "Good depth of analysis.",
+          "Highly relevant to my interests.",
+          "Maybe cover more case studies."
+        ]
+      }
+    },
+    "created_at": "2024-10-18 06:20:30"
+  },
+  {
+    "user_id": 106,
+    "object_id": "event_004",
+    "feedback": {
+      "questions": [
+        "How would you rate the event's accessibility?",
+        "Was the registration process smooth?",
+        "Would you recommend this event to others?"
+      ],
+      "answers": {
+        "ratings": [3, 4, 4],
+        "comments": [
+          "Accessibility could be improved.",
+          "Registration was mostly smooth.",
+          "Yes, to a few friends."
+        ]
+      }
+    },
+    "created_at": "2024-10-18 06:25:50"
+  },
+  {
+    "user_id": 107,
+    "object_id": "event_005",
+    "feedback": {
+      "questions": [
+        "Rate the quality of the workshops offered.",
+        "How engaging were the speakers?",
+        "Any topics you would like to see covered?"
+      ],
+      "answers": {
+        "ratings": [5, 5, 4],
+        "comments": [
+          "Workshops were top-notch.",
+          "Speakers were very engaging.",
+          "Would love to see more on digital art."
+        ]
+      }
+    },
+    "created_at": "2024-10-18 06:30:10"
+  },
+  {
+    "user_id": 108,
+    "object_id": "article_003",
+    "feedback": {
+      "questions": [
+        "How clear and concise was the article?",
+        "Did the article meet your expectations?",
+        "Would you like interactive elements in future articles?"
+      ],
+      "answers": {
+        "ratings": [5, 4, 5],
+        "comments": [
+          "Very clear and easy to understand.",
+          "Met my expectations well.",
+          "Yes, interactive elements would be great."
+        ]
+      }
+    },
+    "created_at": "2024-10-18 06:35:25"
+  },
+  {
+    "user_id": 109,
+    "object_id": "event_006",
+    "feedback": {
+      "questions": [
+        "How would you rate the event's networking opportunities?",
+        "Was the event's duration adequate?",
+        "Any additional comments?"
+      ],
+      "answers": {
+        "ratings": [4, 3, 4],
+        "comments": [
+          "Good networking opportunities.",
+          "Duration felt a bit short.",
+          "Would appreciate longer sessions."
+        ]
+      }
+    },
+    "created_at": "2024-10-18 06:40:00"
+  },
+  {
+    "user_id": 110,
+    "object_id": "event_007",
+    "feedback": {
+      "questions": [
+        "Rate the event's catering services.",
+        "How was the event's overall organization?",
+        "Would you attend future events organized by us?"
+      ],
+      "answers": {
+        "ratings": [5, 5, 5],
+        "comments": [
+          "Excellent catering services.",
+          "Highly organized event.",
+          "Definitely, looking forward to more."
+        ]
+      }
+    },
+    "created_at": "2024-10-18 06:45:30"
+  },
+  {
+    "user_id": 111,
+    "object_id": "article_004",
+    "feedback": {
+      "questions": [
+        "How likely are you to share this article?",
+        "Did the article inspire you?",
+        "Any topics you'd like to see in future articles?"
+      ],
+      "answers": {
+        "ratings": [4, 5, 5],
+        "comments": [
+          "Likely to share with peers.",
+          "Yes, it was very inspiring.",
+          "More on sustainable art practices."
+        ]
+      }
+    },
+    "created_at": "2024-10-18 06:50:15"
+  },
+  {
+    "user_id": 112,
+    "object_id": "event_008",
+    "feedback": {
+      "questions": [
+        "How was the event's communication and updates?",
+        "Rate the diversity of activities offered.",
+        "Any improvements you'd suggest?"
+      ],
+      "answers": {
+        "ratings": [4, 4, 3],
+        "comments": [
+          "Good communication overall.",
+          "Diverse range of activities.",
+          "Improve signage for different sections."
+        ]
+      }
+    },
+    "created_at": "2024-10-18 06:55:45"
+  },
+  {
+    "user_id": 113,
+    "object_id": "event_009",
+    "feedback": {
+      "questions": [
+        "Rate your overall satisfaction with the event.",
+        "How would you rate the event's promotion and marketing?",
+        "Would you participate in similar events in the future?"
+      ],
+      "answers": {
+        "ratings": [5, 4, 5],
+        "comments": [
+          "Extremely satisfied!",
+          "Marketing was effective.",
+          "Yes, definitely."
+        ]
+      }
+    },
+    "created_at": "2024-10-18 07:00:00"
+  }
+]

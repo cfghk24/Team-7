@@ -1,57 +1,57 @@
 {
     "active_users": 150,
-    "total_users": 1000,
+    "total_users": 113,
     "returning_users_percentage": 75.0,
     "favorite_events": [
       {
-        "_id": "64f0c1b0e3b9a1f5b8a8d3e4",
+        "_id": "event_001",
         "title": "Spring Music Festival",
         "registrations_count": 300
       },
       {
-        "_id": "64f0c1b0e3b9a1f5b8a8d3e5",
+        "_id": "event_002",
         "title": "Art Expo 2024",
         "registrations_count": 250
       },
       {
-        "_id": "64f0c1b0e3b9a1f5b8a8d3e6",
+        "_id": "event_003",
         "title": "Summer Coding Bootcamp",
         "registrations_count": 200
       },
       {
-        "_id": "64f0c1b0e3b9a1f5b8a8d3e7",
+        "_id": "event_004",
         "title": "Community Yoga Sessions",
         "registrations_count": 180
       },
       {
-        "_id": "64f0c1b0e3b9a1f5b8a8d3e8",
+        "_id": "event_005",
         "title": "Tech Talk Series",
         "registrations_count": 160
       }
     ],
     "forms_filled_percentages": [
       {
-        "event_id": "64f0c1b0e3b9a1f5b8a8d3e4",
+        "event_id": "event_001",
         "event_title": "Spring Music Festival",
         "forms_filled_percentage": 85.5
       },
       {
-        "event_id": "64f0c1b0e3b9a1f5b8a8d3e5",
+        "event_id": "event_002",
         "event_title": "Art Expo 2024",
         "forms_filled_percentage": 78.0
       },
       {
-        "event_id": "64f0c1b0e3b9a1f5b8a8d3e6",
+        "event_id": "event_003",
         "event_title": "Summer Coding Bootcamp",
         "forms_filled_percentage": 90.2
       },
       {
-        "event_id": "64f0c1b0e3b9a1f5b8a8d3e7",
+        "event_id": "event_004",
         "event_title": "Community Yoga Sessions",
         "forms_filled_percentage": 65.3
       },
       {
-        "event_id": "64f0c1b0e3b9a1f5b8a8d3e8",
+        "event_id": "event_005",
         "event_title": "Tech Talk Series",
         "forms_filled_percentage": 70.8
       }
@@ -61,52 +61,51 @@
     "total_forum_threads": 450,
     "most_active_users": [
       {
-        "_id": "64f0c1b0e3b9a1f5b8a8d3ea",
+        "_id": "article_001",
         "comments_count": 150
       },
       {
-        "_id": "64f0c1b0e3b9a1f5b8a8d3eb",
+        "_id": "article_002",
         "comments_count": 140
       },
       {
-        "_id": "64f0c1b0e3b9a1f5b8a8d3ec",
+        "_id": "article_003",
         "comments_count": 130
       },
       {
-        "_id": "64f0c1b0e3b9a1f5b8a8d3ed",
+        "_id": "article_004",
         "comments_count": 120
       },
       {
-        "_id": "64f0c1b0e3b9a1f5b8a8d3ee",
+        "_id": "article_005",
         "comments_count": 110
       }
     ],
     "popular_articles": [
       {
-        "_id": "64f0c1b0e3b9a1f5b8a8d3ef",
+        "_id": "article_001",
         "title": "Understanding AI and Machine Learning",
         "comments_count": 250
       },
       {
-        "_id": "64f0c1b0e3b9a1f5b8a8d3f0",
+        "_id": "article_002",
         "title": "The Future of Web Development",
         "comments_count": 240
       },
       {
-        "_id": "64f0c1b0e3b9a1f5b8a8d3f1",
+        "_id": "article_003",
         "title": "Creative Art Techniques",
         "comments_count": 230
       },
       {
-        "_id": "64f0c1b0e3b9a1f5b8a8d3f2",
+        "_id": "article_004",
         "title": "Health and Wellness Tips",
         "comments_count": 220
       },
       {
-        "_id": "64f0c1b0e3b9a1f5b8a8d3f3",
+        "_id": "article_005",
         "title": "Advanced Python Programming",
         "comments_count": 210
       }
     ]
-  }
-  
+}

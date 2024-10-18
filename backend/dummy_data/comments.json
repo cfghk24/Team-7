@@ -1,0 +1,72 @@
+[
+    {
+        "comment_id": "comment1",
+        "user_id": 101,
+        "object_id": "event_001",
+        "text": "Looking forward to the Art Basel!",
+        "created_at": "2024-10-18 05:40:00"
+    },
+    {
+        "comment_id": "comment2",
+        "user_id": 102,
+        "object_id": "event_002",
+        "text": "The Arts Festival is always a highlight!",
+        "created_at": "2024-10-18 05:45:00"
+    },
+    {
+        "comment_id": "comment3",
+        "user_id": 103,
+        "object_id": "event_003",
+        "text": "Art Central brings such great diversity.",
+        "created_at": "2024-10-18 05:50:00"
+    },
+    {
+        "comment_id": "comment4",
+        "user_id": 104,
+        "object_id": "event_004",
+        "text": "HKwalls really enhances the city's vibe.",
+        "created_at": "2024-10-18 05:55:00"
+    },
+    {
+        "comment_id": "comment5",
+        "user_id": 105,
+        "object_id": "event_005",
+        "text": "Le French May is a must-visit!",
+        "created_at": "2024-10-18 06:00:00"
+    },
+    {
+        "comment_id": "comment6",
+        "user_id": 106,
+        "object_id": "event_006",
+        "text": "M+ Sigg Collection is outstanding.",
+        "created_at": "2024-10-18 06:05:00"
+    },
+    {
+        "comment_id": "comment7",
+        "user_id": 107,
+        "object_id": "event_007",
+        "text": "Wu Guanzhong's work is timeless.",
+        "created_at": "2024-10-18 06:10:00"
+    },
+    {
+        "comment_id": "comment8",
+        "user_id": 108,
+        "object_id": "event_008",
+        "text": "I.M. Pei's architecture is inspiring.",
+        "created_at": "2024-10-18 06:15:00"
+    },
+    {
+        "comment_id": "comment9",
+        "user_id": 109,
+        "object_id": "event_009",
+        "text": "Affordable Art Fair offers great pieces.",
+        "created_at": "2024-10-18 06:20:00"
+    },
+    {
+        "comment_id": "comment10",
+        "user_id": 110,
+        "object_id": "event_010",
+        "text": "Ink Asia showcases amazing ink art.",
+        "created_at": "2024-10-18 06:25:00"
+    }
+]

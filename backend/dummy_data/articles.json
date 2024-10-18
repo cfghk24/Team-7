@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "article_001",
+    "user_id": 101,
+    "name": "Exploring Contemporary Art in Hong Kong",
+    "description": "An in-depth look at the thriving contemporary art scene in Hong Kong.",
+    "image": "https://example.com/images/contemporary_art_hk.jpg",
+    "text": "Hong Kong has emerged as a vibrant hub for contemporary art, attracting artists and galleries from around the world. The city's unique blend of Eastern and Western influences creates a dynamic environment for artistic expression..."
+  },
+  {
+    "_id": "article_002",
+    "user_id": 102,
+    "name": "The Evolution of Street Art",
+    "description": "Tracing the roots and growth of street art in urban landscapes.",
+    "image": "https://example.com/images/street_art_evolution.jpg",
+    "text": "Street art has transformed from rebellious graffiti to a celebrated form of public expression. This article explores its evolution, key artists, and the impact it has on cityscapes..."
+  },
+  {
+    "_id": "article_003",
+    "user_id": 103,
+    "name": "Top 10 Art Galleries to Visit in 2024",
+    "description": "A curated list of must-visit art galleries for art enthusiasts this year.",
+    "image": "https://example.com/images/top_galleries_2024.jpg",
+    "text": "Discover the top art galleries that are making waves in 2024. From cutting-edge modern spaces to classic institutions, these galleries offer a diverse range of exhibitions and experiences..."
+  },
+  {
+    "_id": "article_004",
+    "user_id": 104,
+    "name": "The Intersection of Technology and Art",
+    "description": "How emerging technologies are shaping the future of artistic creation.",
+    "image": "https://example.com/images/tech_meets_art.jpg",
+    "text": "Technology is revolutionizing the art world, enabling artists to push boundaries and explore new mediums. This article delves into the latest technological advancements influencing art..."
+  },
+  {
+    "_id": "article_005",
+    "user_id": 105,
+    "name": "Sustainable Practices in Art Production",
+    "description": "Exploring eco-friendly methods artists are adopting in their work.",
+    "image": "https://example.com/images/sustainable_art.jpg",
+    "text": "As environmental concerns become increasingly important, artists are embracing sustainable practices in their creation processes. Learn about the innovative methods being used to reduce the ecological footprint of art production..."
+  }
+]
