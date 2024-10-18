@@ -17,3 +17,4 @@ def get_users():
         for user in users:
             user["_id"] = str(user["_id"])  # Convert ObjectId to string
         return users, 200
+    
