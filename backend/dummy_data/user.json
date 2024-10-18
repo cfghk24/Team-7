@@ -1,0 +1,26 @@
+[
+    {
+        "username": "admin",
+        "password": "admin",
+        "email": "admin@gmail.com",
+        "role": "admin"
+    },
+    {
+        "username": "student",
+        "password": "student",
+        "email": "student@example.com",
+        "role": "student"
+    },
+    {
+        "username": "art",
+        "password": "art",
+        "email": "artist@example.com",
+        "role": "artist"
+    },
+    {
+        "username": "parent",
+        "password": "parent",
+        "email": "parent@example.com",
+        "role": "parent"
+    }
+]

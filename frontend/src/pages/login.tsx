@@ -18,7 +18,7 @@ const Login: React.FC = () => {
 
     // Make the API call to the Flask backend for login
     try {
-      const response = await fetch('/api/users/login', {
+      const response = await fetch('/users/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

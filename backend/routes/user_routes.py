@@ -4,7 +4,7 @@ from database import users_model
 
 user_routes = Blueprint("user_routes", __name__)
 
-@user_routes.route("/", methods=["POST"])
+@user_routes.route("/register", methods=["POST"])
 def create_user():
     if request.method == "POST":
         result = users_model.insert_one(request.json)
@@ -28,6 +28,8 @@ def login_user():
         return {"error": "Username and password are required."}, 400
 
     user = users_model.find_one({"username": username})
+    print(user)
+    print(username, password)
     if user and user.get("password") == password:
         user["_id"] = str(user["_id"])  # Convert ObjectId to string
         return user, 200
