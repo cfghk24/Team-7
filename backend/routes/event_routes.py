@@ -9,14 +9,17 @@ def create_event():
     if request.method == "POST":
         result = events_model.insert_one(request.json)
         return {"message": "Event added successfully", "_id": str(result.inserted_id)}, 201
-
+    
 @event_routes.route("/", methods=["GET"])
 def get_events():
-    if request.method == "GET":
-        events = list(events_model.find())
-        for event in events:
-            event["_id"] = str(event["_id"])  # Convert ObjectId to string
-        return events, 200
+    events = list(events_model.find({}))
+    for event in events:
+        event["_id"] = str(event["_id"])  # Convert ObjectId to string
+        
+    # Sort events by date (assuming there's a 'date' field)
+    events.sort(key=lambda x: x.get('date', ''))
+    
+    return events, 200
 
 @event_routes.route("/<event_id>/feedback", methods=["GET"])
 def get_event_feedback(event_id):
@@ -26,13 +29,15 @@ def get_event_feedback(event_id):
     except Exception:
         return {"error": "Invalid event ID"}, 400
 
-    # Retrieve the event data necessary for the feedback form
-    event = events_model.find_one({"_id": event_id})
-    if event:
-        event["_id"] = str(event["_id"])
-        return event, 200
+    # Retrieve all feedback for the given event
+    feedbacks = list(feedback_model.find({"object_id": event_id}))
+    if feedbacks:
+        for feedback in feedbacks:
+            feedback["_id"] = str(feedback["_id"])
+            feedback["object_id"] = str(feedback["object_id"])
+        return {"feedbacks": feedbacks}, 200
     else:
-        return {"error": "Event not found"}, 404
+        return {"message": "No feedback found for this event"}, 404
 
 @event_routes.route("/<event_id>/feedback", methods=["POST"])
 def submit_event_feedback(event_id):
@@ -44,9 +49,20 @@ def submit_event_feedback(event_id):
 
     # Get feedback data from the request body
     feedback_data = request.json
-    feedback_data["event_id"] = event_id
+    
+    # Ensure required fields are present
+    if "user_id" not in feedback_data or "feedback" not in feedback_data:
+        return {"error": "Missing required fields"}, 400
+
+    # Prepare feedback data for insertion
+    feedback_to_insert = {
+        "user_id": feedback_data["user_id"],
+        "object_id": event_id,
+        "feedback": feedback_data["feedback"]
+    }
+
     # Insert the feedback into the feedback collection
-    result = feedback_model.insert_one(feedback_data)
+    result = feedback_model.insert_one(feedback_to_insert)
     return {"message": "Feedback submitted successfully", "_id": str(result.inserted_id)}, 201
 
 @event_routes.route("/<event_id>", methods=["GET"])
