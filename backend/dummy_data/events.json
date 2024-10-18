@@ -1,0 +1,102 @@
+[
+    {
+      "name": "Art Basel Hong Kong",
+      "description": "Premier art fair showcasing modern and contemporary art",
+      "date": "Mar 29-31, 2024",
+      "location": "Hong Kong Convention and Exhibition Centre",
+      "photo": "https://d2u3kfwd92fzu7.cloudfront.net/asset/cms/HK_Overview_Exhibitors.jpg",
+      "ratings": 4.8,
+      "comments": ["comment1"],
+      "created_at": "2024-10-18 05:36:55"
+    },
+    {
+      "name": "Hong Kong Arts Festival",
+      "description": "Annual festival featuring a wide range of performing arts",
+      "date": "Feb 16-Mar 17, 2024",
+      "location": "Various locations",
+      "photo": "https://www.discoverhongkong.com/eng/about-hktb/annual-report/annual-report-20162017/wp-content/uploads/2017/09/4_5_2-01.jpg",
+      "ratings": 4.7,
+      "comments": ["comment2"],
+      "created_at": "2024-10-18 05:36:55"
+    },
+    {
+      "name": "Art Central",
+      "description": "Contemporary art fair with leading galleries worldwide",
+      "date": "Mar 27-31, 2024",
+      "location": "Central Harbourfront",
+      "photo": "https://media.timeout.com/images/105988782/750/422/image.jpg",
+      "ratings": 4.6,
+      "comments": ["comment3"],
+      "created_at": "2024-10-18 05:36:55"
+    },
+    {
+      "name": "HKwalls Street Art Festival",
+      "description": "Street art festival featuring local and international artists",
+      "date": "Mar 23-31, 2024",
+      "location": "Various locations",
+      "photo": "https://www.discoverhongkong.com/content/dam/dhk/events/images/en/816/81604/hktb-hkwallskey-visual_credit_daniel-murray_r-0131114903.jpg",
+      "ratings": 4.5,
+      "comments": ["comment4"],
+      "created_at": "2024-10-18 05:36:55"
+    },
+    {
+      "name": "Le French May",
+      "description": "Annual arts festival celebrating French culture",
+      "date": "May 1-Jun 30, 2024",
+      "location": "Various locations",
+      "photo": "https://www.pmq.org.hk/media/lefrenchmay2016_05.jpg",
+      "ratings": 4.7,
+      "comments": ["comment5"],
+      "created_at": "2024-10-18 05:36:55"
+    },
+    {
+      "name": "M+ Sigg Collection: Another Story",
+      "description": "Exhibition featuring contemporary Chinese art",
+      "date": "Sep 22, 2023-Jun 1, 2025",
+      "location": "M+ Museum",
+      "photo": "https://www.mplus.org.hk/api/images/5175/width-600%7Cformat-webp/",
+      "ratings": 4.9,
+      "comments": ["comment6"],
+      "created_at": "2024-10-18 05:36:55"
+    },
+    {
+      "name": "Wu Guanzhong: Between Black and White",
+      "description": "Exhibition showcasing works by Wu Guanzhong",
+      "date": "Mar 22, 2024-Feb 12, 2025",
+      "location": "Hong Kong Museum of Art",
+      "photo": "https://www.discoverhongkong.com/content/dam/dhk/events/images/en/819/81914/item1_kv_1024x768_reduce-size-0426104939.jpg",
+      "ratings": 4.8,
+      "comments": ["comment7"],
+      "created_at": "2024-10-18 05:36:55"
+    },
+    {
+      "name": "I.M. Pei: Life Is Architecture",
+      "description": "Exhibition on the life and works of architect I.M. Pei",
+      "date": "Jun 29, 2024-Jan 5, 2025",
+      "location": "Hong Kong Heritage Museum",
+      "photo": "https://www.discoverhongkong.com/content/dam/dhk/events/images/en/820/82053/i.-m.-pei_installation-view_12_1024x768-0705175901.jpg",
+      "ratings": 4.7,
+      "comments": ["comment8"],
+      "created_at": "2024-10-18 05:36:55"
+    },
+    {
+      "name": "Affordable Art Fair Hong Kong",
+      "description": "Fair showcasing affordable contemporary art",
+      "date": "May 17-19, 2024",
+      "location": "Hong Kong Convention and Exhibition Centre",
+      "photo": "https://aaf-preprod.s3.eu-west-1.amazonaws.com/uploads/2021/03/Hong-Kong.jpg",
+      "ratings": 4.6,
+      "comments": ["comment9"],
+      "created_at": "2024-10-18 05:36:55"
+    },
+    {
+      "name": "Ink Asia",
+      "description": "Fair dedicated to contemporary ink art",
+      "date": "Dec 6-8, 2024",
+      "location": "Hong Kong Convention and Exhibition Centre",
+      "photo": "https://aarrtt.hk/wp-content/uploads/2023/08/Ink-Asia.png",
+      "ratings": 4.7,
+      "comments": ["comment10"],
+      "created_at": "2024-10-18 05:36:55"
+    }
+  ]
