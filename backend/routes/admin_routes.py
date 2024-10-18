@@ -10,9 +10,9 @@ from database import (
     feedback_model,
 )
 
-admin_page = Blueprint('admin_page', __name__)
+admin_routes = Blueprint('admin_routes', __name__)
 
-@admin_page.route('/analytics', methods=['GET'])
+@admin_routes.route('/analytics', methods=['GET'])
 def get_analytics():
     analytics_data = {}
 
