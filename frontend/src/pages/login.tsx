@@ -18,7 +18,7 @@ const Login: React.FC = () => {
 
     // Make the API call to the Flask backend for login
     try {
-      const response = await fetch('/users/login', {
+      const response = await fetch('/api/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -31,7 +31,7 @@ const Login: React.FC = () => {
         const user = await response.json(); // Get the user data returned from Flask
         console.log('Login successful:', user);
         // Redirect to home page after successful login
-        router.push('/');
+        router.push('/events');
       } else {
         // Handle login failure (e.g., wrong username/password)
         const errorData = await response.json();
