@@ -1,3 +1,4 @@
+import Header from '@/components/shared/Header';
 import axios from 'axios';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react'
@@ -50,7 +51,8 @@ const EventsList = ()=>{
         fetchEvents();
     }, [])
     return (
-        <div className='grid grid-cols-2 gap-3'>
+        <div className='grid gap-3'>
+            
             {events && events.map((event) => (
                 <EventCard event={event} key={event._id} />
             ))}
@@ -60,7 +62,8 @@ const EventsList = ()=>{
 const index = () => {
   return (
     <div className='space-y-6 p-4'>
-        <h1 className=' font-bold text-2xl'>Events</h1>
+        <Header />
+        <h1 className=' font-bold text-xl'>Recent Events</h1>
         <EventsList />   
     </div>
   )
