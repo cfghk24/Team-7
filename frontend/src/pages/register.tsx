@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useRouter } from 'next/router'; // Import Next.js Router
 
-function Register() {
+const Register: React.FC = () => {
   // State variables for form fields
   const [firstName, setFirstName] = useState<string>('');
   const [lastName, setLastName] = useState<string>('');
@@ -10,19 +10,13 @@ function Register() {
   const [password, setPassword] = useState<string>('');
   const [role, setRole] = useState<string>('Parent');
 
+  const router = useRouter(); // Initialize useRouter for navigation
+
   // Form submission handler
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    // Prepare form data
-    const formData = {
-      firstName,
-      lastName,
-      username,
-      email,
-      password,
-      role,
-    };
+    const formData = { firstName, lastName, username, email, password, role };
 
     const response = await fetch('/api/register', {
       method: 'POST',
@@ -32,8 +26,12 @@ function Register() {
       body: JSON.stringify(formData),
     });
 
-    const data = await response.json();
-    alert(data.message);
+    if (response.ok) {
+      router.push('/'); // Redirect to home page after successful registration
+    } else {
+      const data = await response.json();
+      alert(data.message);
+    }
   };
 
   return (
@@ -101,7 +99,7 @@ function Register() {
           />
         </div>
 
-        {/* Radio Buttons for Role Selection */}
+        {/* Role Selection */}
         <div style={styles.formGroup}>
           <label>Select Role:</label>
           <div>
@@ -139,28 +137,27 @@ function Register() {
           </div>
         </div>
 
-        {/* Submit Button */}
         <button type="submit" style={styles.button}>Register</button>
       </form>
     </div>
   );
-}
+};
 
-// Define styles with correct typing and mobile layout
+// Styles for the component
 const styles: { [key: string]: React.CSSProperties } = {
   container: {
-    maxWidth: '90%', // Adjusted for mobile
+    maxWidth: '90%',
     margin: '0 auto',
     padding: '20px',
     border: '1px solid #ccc',
     borderRadius: '10px',
     backgroundColor: '#f9f9f9',
-    boxSizing: 'border-box', // Ensure padding and border are included in width calculation
+    boxSizing: 'border-box',
   },
   heading: {
     textAlign: 'center',
     marginBottom: '20px',
-    fontSize: '1.5em', // Make heading responsive
+    fontSize: '1.5em',
   },
   form: {
     display: 'flex',
@@ -171,11 +168,11 @@ const styles: { [key: string]: React.CSSProperties } = {
   },
   input: {
     width: '100%',
-    padding: '12px', // Larger padding for better mobile interaction
+    padding: '12px',
     marginTop: '5px',
     borderRadius: '5px',
     border: '1px solid #ccc',
-    fontSize: '1em', // Font size for readability on mobile
+    fontSize: '1em',
   },
   button: {
     padding: '12px',
@@ -184,7 +181,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     border: 'none',
     borderRadius: '5px',
     cursor: 'pointer',
-    fontSize: '1em', // Responsive button size
+    fontSize: '1em',
   },
 };
 
