@@ -8,3 +8,6 @@ CONNECTION_STRING = os.getenv("DB_URI")
 mongo_client = pymongo.MongoClient(CONNECTION_STRING)
 db = mongo_client["test"]
 users_model = db["users"]
+event_model = db["events"]
+articles_model = db["articles"]
+forum_model = db["forum"]
