@@ -18,7 +18,7 @@ const Register: React.FC = () => {
 
     const formData = { firstName, lastName, username, email, password, role };
 
-    const response = await fetch('/api/register', {
+    const response = await fetch('/api/users', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
