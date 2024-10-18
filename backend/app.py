@@ -1,10 +1,14 @@
 from flask import Flask
 
 from routes import user_routes, event_routes, article_routes, forum_routes
+from flask_cors import CORS
+
+
 
 
 app = Flask(__name__)
 
+CORS(app)
 # Register Blueprints
 app.register_blueprint(user_routes.user_routes, url_prefix="/api/users")
 app.register_blueprint(event_routes.event_routes, url_prefix="/events")

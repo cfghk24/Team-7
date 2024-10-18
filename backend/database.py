@@ -6,7 +6,7 @@ load_dotenv()
 
 CONNECTION_STRING = os.getenv("DB_URI")
 mongo_client = pymongo.MongoClient(CONNECTION_STRING)
-db = mongo_client["test"]
+db = mongo_client["codeforgood"]
 users_model = db["users"]
 events_model = db["events"]
 articles_model = db["articles"]
