@@ -12,8 +12,9 @@ from database import (
 
 admin_routes = Blueprint('admin_routes', __name__)
 
-@admin_routes.route('/analytics', methods=['GET'])
+@admin_routes.route('/', methods=['GET'])
 def get_analytics():
+    
     analytics_data = {}
 
     # 1. Active Users: Users who have logged in within the last 30 days
