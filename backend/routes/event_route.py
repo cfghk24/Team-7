@@ -1,19 +1,19 @@
 from flask import Blueprint, request
 from bson import ObjectId
-from database import event_model, feedback_model
+from database import events_model, feedback_model
 
 event_routes = Blueprint("event_routes", __name__)
 
 @event_routes.route("/", methods=["POST"])
 def create_event():
     if request.method == "POST":
-        result = event_model.insert_one(request.json)
+        result = events_model.insert_one(request.json)
         return {"message": "Event added successfully", "_id": str(result.inserted_id)}, 201
 
 @event_routes.route("/", methods=["GET"])
 def get_events():
     if request.method == "GET":
-        events = list(event_model.find())
+        events = list(events_model.find())
         for event in events:
             event["_id"] = str(event["_id"])  # Convert ObjectId to string
         return events, 200
@@ -27,7 +27,7 @@ def get_event_feedback(event_id):
         return {"error": "Invalid event ID"}, 400
 
     # Retrieve the event data necessary for the feedback form
-    event = event_model.find_one({"_id": event_id})
+    event = events_model.find_one({"_id": event_id})
     if event:
         event["_id"] = str(event["_id"])
         return event, 200
@@ -58,7 +58,7 @@ def get_event(event_id):
         return {"error": "Invalid event ID"}, 400
 
     # Retrieve the event data necessary for the feedback form
-    event = event_model.find_one({"_id": event_id})
+    event = events_model.find_one({"_id": event_id})
     if event:
         event["_id"] = str(event["_id"])
         return event, 200
@@ -81,7 +81,7 @@ def register_for_event(event_id):
         return {"error": "User ID is required"}, 400
 
     # Fetch the event
-    event = event_model.find_one({"_id": event_id})
+    event = events_model.find_one({"_id": event_id})
     if not event:
         return {"error": "Event not found"}, 404
 
@@ -90,7 +90,7 @@ def register_for_event(event_id):
         return {"message": "User already registered for this event"}, 400
 
     # Add the user_id to the participants array
-    result = event_model.update_one(
+    result = events_model.update_one(
         {"_id": event_id},
         {"$addToSet": {"participants": user_id}}
     )
