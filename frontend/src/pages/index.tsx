@@ -2,9 +2,15 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import Head from "next/head";
 import axios from "axios";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 
 export default function Home() {
+  const router = useRouter();
+  useEffect(()=>{
+    router.push("/login")
+  }, [router])
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const res = await axios.get("/api/todos");
