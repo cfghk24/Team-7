@@ -12,7 +12,7 @@ from database import (
 
 admin_routes = Blueprint('admin_routes', __name__)
 
-@admin_routes.route('/analytics', methods=['GET'])
+@admin_routes.route('/', methods=['GET'])
 def get_analytics():
     analytics_data = {}
 
