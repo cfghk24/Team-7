@@ -17,4 +17,19 @@ def get_users():
         for user in users:
             user["_id"] = str(user["_id"])  # Convert ObjectId to string
         return users, 200
-    
+
+@user_routes.route("/login", methods=["POST"])
+def login_user():
+    data = request.get_json()
+    username = data.get("username")
+    password = data.get("password")
+
+    if not username or not password:
+        return {"error": "Username and password are required."}, 400
+
+    user = users_model.find_one({"username": username})
+    if user and user.get("password") == password:
+        user["_id"] = str(user["_id"])  # Convert ObjectId to string
+        return user, 200
+    else:
+        return {"error": "Invalid username or password."}, 401
