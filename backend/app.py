@@ -5,8 +5,8 @@ from routes import user_routes, event_routes, article_routes, forum_routes, admi
 
 
 app = Flask(__name__)
-# CORS(app, origins=["http://localhost:3000"])
 
+CORS(app)
 # Register Blueprints
 app.register_blueprint(user_routes.user_routes, url_prefix="/users")
 app.register_blueprint(event_routes.event_routes, url_prefix="/events")
