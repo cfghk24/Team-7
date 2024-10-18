@@ -1,7 +1,7 @@
 [
     {
       "name": "Art Basel Hong Kong",
-      "description": "Premier art fair showcasing modern and contemporary art",
+      "description": "Art Basel Hong Kong is one of the premier art fairs in the world, showcasing a diverse range of modern and contemporary artworks from leading galleries across the globe. Held annually at the Hong Kong Convention and Exhibition Centre, the fair features paintings, sculptures, installations, photography, and digital art. It attracts a wide array of art enthusiasts, collectors, and industry professionals. The event also includes a series of talks, panel discussions, and special exhibitions, providing a comprehensive insight into the current trends and developments in the art world. Art Basel Hong Kong is renowned for its high-quality presentations and its role in fostering cultural exchange and dialogue within the international art community.",
       "date": "Mar 29-31, 2024",
       "location": "Hong Kong Convention and Exhibition Centre",
       "photo": "https://d2u3kfwd92fzu7.cloudfront.net/asset/cms/HK_Overview_Exhibitors.jpg",
@@ -11,7 +11,7 @@
     },
     {
       "name": "Hong Kong Arts Festival",
-      "description": "Annual festival featuring a wide range of performing arts",
+      "description": "The Hong Kong Arts Festival is an annual event that celebrates a wide range of performing arts, including music, dance, theater, and opera. Held at various locations throughout Hong Kong, the festival features performances by both local and international artists. It aims to enrich the cultural life of the city and provide a platform for artistic exchange and collaboration. The festival includes a diverse program of events, from classical concerts and contemporary dance performances to experimental theater and multimedia productions. It also offers workshops, masterclasses, and outreach programs to engage the community and nurture the next generation of artists.",
       "date": "Feb 16-Mar 17, 2024",
       "location": "Various locations",
       "photo": "https://www.discoverhongkong.com/eng/about-hktb/annual-report/annual-report-20162017/wp-content/uploads/2017/09/4_5_2-01.jpg",
@@ -21,7 +21,7 @@
     },
     {
       "name": "Art Central",
-      "description": "Contemporary art fair with leading galleries worldwide",
+      "description": "Art Central is a contemporary art fair that takes place annually at the Central Harbourfront in Hong Kong. The fair showcases a wide range of contemporary artworks from leading galleries around the world, including paintings, sculptures, installations, and multimedia works. Art Central is known for its dynamic and diverse presentations, featuring both established and emerging artists. The event also includes a program of talks, panel discussions, and performances, providing a platform for dialogue and exchange within the art community. Art Central aims to make contemporary art accessible to a broad audience and to foster a deeper appreciation of the arts.",
       "date": "Mar 27-31, 2024",
       "location": "Central Harbourfront",
       "photo": "https://media.timeout.com/images/105988782/750/422/image.jpg",
@@ -31,7 +31,7 @@
     },
     {
       "name": "HKwalls Street Art Festival",
-      "description": "Street art festival featuring local and international artists",
+      "description": "HKwalls is an annual street art festival that takes place in various locations across Hong Kong. The festival features local and international street artists who create large-scale murals and public art installations. HKwalls aims to promote street art as a legitimate and valuable form of artistic expression and to enhance the urban environment through creative interventions. The festival includes live painting sessions, artist talks, and workshops, providing opportunities for the public to engage with the artists and learn more about the street art movement. HKwalls is celebrated for its vibrant and diverse artworks, which transform the city's streets into an open-air gallery.",
       "date": "Mar 23-31, 2024",
       "location": "Various locations",
       "photo": "https://www.discoverhongkong.com/content/dam/dhk/events/images/en/816/81604/hktb-hkwallskey-visual_credit_daniel-murray_r-0131114903.jpg",
@@ -41,7 +41,7 @@
     },
     {
       "name": "Le French May",
-      "description": "Annual arts festival celebrating French culture",
+      "description": "Le French May is an annual arts festival that celebrates French culture and arts in Hong Kong. The festival features a wide range of events, including art exhibitions, music concerts, dance performances, theater productions, and culinary experiences. Le French May aims to promote cultural exchange between France and Hong Kong and to showcase the richness and diversity of French artistic traditions. The festival takes place at various venues across the city and attracts a broad audience of art enthusiasts and cultural aficionados. Le French May is known for its high-quality presentations and its role in fostering a deeper appreciation of French culture in Hong Kong.",
       "date": "May 1-Jun 30, 2024",
       "location": "Various locations",
       "photo": "https://www.pmq.org.hk/media/lefrenchmay2016_05.jpg",
@@ -51,7 +51,7 @@
     },
     {
       "name": "M+ Sigg Collection: Another Story",
-      "description": "Exhibition featuring contemporary Chinese art",
+      "description": "The M+ Sigg Collection: Another Story is an exhibition that features contemporary Chinese art from the renowned Sigg Collection. The exhibition is held at the M+ Museum in Hong Kong and showcases a diverse range of artworks, including paintings, sculptures, installations, and multimedia works. The Sigg Collection is one of the most comprehensive collections of contemporary Chinese art in the world, and the exhibition provides a unique insight into the development of Chinese art over the past few decades. The exhibition is accompanied by a series of talks, panel discussions, and educational programs, offering visitors a deeper understanding of the artworks and the cultural context in which they were created.",
       "date": "Sep 22, 2023-Jun 1, 2025",
       "location": "M+ Museum",
       "photo": "https://www.mplus.org.hk/api/images/5175/width-600%7Cformat-webp/",
@@ -61,7 +61,7 @@
     },
     {
       "name": "Wu Guanzhong: Between Black and White",
-      "description": "Exhibition showcasing works by Wu Guanzhong",
+      "description": "Wu Guanzhong: Between Black and White is an exhibition that showcases the works of Wu Guanzhong, one of China's most celebrated artists. The exhibition is held at the Hong Kong Museum of Art and features a selection of Wu's black and white paintings and drawings. Wu Guanzhong is known for his unique style that blends traditional Chinese ink painting with modern Western techniques. The exhibition provides a comprehensive overview of Wu's artistic career and highlights his contributions to the development of modern Chinese art. The exhibition is accompanied by a series of talks, workshops, and educational programs, offering visitors an opportunity to learn more about Wu's artistic vision and techniques.",
       "date": "Mar 22, 2024-Feb 12, 2025",
       "location": "Hong Kong Museum of Art",
       "photo": "https://www.discoverhongkong.com/content/dam/dhk/events/images/en/819/81914/item1_kv_1024x768_reduce-size-0426104939.jpg",
@@ -71,7 +71,7 @@
     },
     {
       "name": "I.M. Pei: Life Is Architecture",
-      "description": "Exhibition on the life and works of architect I.M. Pei",
+      "description": "I.M. Pei: Life Is Architecture is an exhibition that explores the life and works of the renowned architect I.M. Pei. The exhibition is held at the Hong Kong Heritage Museum and features a comprehensive overview of Pei's architectural achievements, including models, drawings, photographs, and multimedia presentations. I.M. Pei is known for his innovative designs and his contributions to modern architecture, with iconic projects such as the Louvre Pyramid in Paris and the Bank of China Tower in Hong Kong. The exhibition provides an in-depth look at Pei's design philosophy and his impact on the field of architecture. It also includes a series of talks, panel discussions, and educational programs, offering visitors a deeper understanding of Pei's work and legacy.",
       "date": "Jun 29, 2024-Jan 5, 2025",
       "location": "Hong Kong Heritage Museum",
       "photo": "https://www.discoverhongkong.com/content/dam/dhk/events/images/en/820/82053/i.-m.-pei_installation-view_12_1024x768-0705175901.jpg",

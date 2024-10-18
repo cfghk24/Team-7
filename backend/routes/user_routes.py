@@ -28,8 +28,6 @@ def login_user():
         return {"error": "Username and password are required."}, 400
 
     user = users_model.find_one({"username": username})
-    print(user)
-    print(username, password)
     if user and user.get("password") == password:
         user["_id"] = str(user["_id"])  # Convert ObjectId to string
         return user, 200
